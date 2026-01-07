@@ -18,38 +18,6 @@ bot = random.choice([pedra, papel, tesoura])
 
 print('resposta do bot:',bot)
 
-"""
-#pedra condições
-if jogador == pedra and bot == 2:
-    print("jogou Pedra! perdeu! o bot vence com papel")
-elif jogador == pedra and bot == 3:
-    print("jogou Pedra! perdeu! o bot vence com tesoura")
-elif jogador == pedra and bot == 1:
-    print("Empate! o bot lançou pedra")
-else:
-    print("jogou mal, por favor insira um numero válid")
-
-#papel condições
-if jogador == 2 and bot == 1:
-    print("jogou Papel! Ganhou! o bot jogou pedra")
-elif jogador == 2 and bot == 3:
-    print("jogou Papel! perdeu! o bot vence com tesoura")
-elif jogador == 2 and bot == 2:
-    print("Empate! o bot lançou Papel")
-else:
-    print("jogou mal, por favor insira um numero válido")
-
-#tesoura condições
-if jogador == 3 and bot == 2:
-    print("jogou Tesoura! Ganhou! o bot jogou papel.")
-elif jogador == 3 and bot == 1:
-    print("jogou Tesoura! perdeu! o bot vence com Pedra.")
-elif jogador == 3 and bot == 3:
-    print("Empate! o bot lançou Tesoura")
-else:
-    print("jogou mal, por favor insira um numero válido.")
-"""
-
 if jogador == pedra and bot == pedra:
     print("Empatou. Ambos escolheram Pedra.")
 elif jogador == pedra and bot == papel:
