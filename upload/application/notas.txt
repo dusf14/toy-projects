@@ -1,0 +1,19 @@
+- ficheiro config.php alterar a base url,
+-> http://localhost/toy_projects/codeIgniter/crud/
+
+- em database.php
+    preenchi os dados da minha db = crud.
+
+- no autoload.php carrego o helper -> 'url';
+
+- no index.php é onde troco de develop para production;
+
+---------------------------------------------------------
+
+Controller:
+
+produto:
+    index;
+    no index eu chamo o model com a função listar e mostro a tabela da base de dados;
+    
+    

@@ -1,0 +1,19 @@
+#configurações do ambiente local
+/application/config/database.php
+/application/config/config.php
+
+# cache e logs
+/application/cache/*
+/application/logs/*
+
+# Uploads Temporários
+/uploads/*
+
+# Arquivos de IDEs (VScode, PHPStorm, etc)
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
