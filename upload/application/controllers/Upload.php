@@ -15,7 +15,7 @@ class Upload extends CI_Controller {
     //regras de upload
     public function do_upload(){
         $config['upload_path'] = FCPATH . 'uploads/'; // defenir uma rota
-        $config['allowed_types'] = 'gif|png|jpg';
+        $config['allowed_types'] = 'pdf|png|jpg|odt';
         $config['max_size'] = 2048;
         $config['max_width'] = 1920;
         $config['max_height'] = 1080;
